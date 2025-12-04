@@ -5,4 +5,4 @@ This project is beginner-friendly and demonstrates the use of Java methods, cond
 
 A java calculator with while loop for continous user input and beautiful design in terminal for input and result 
 
-It is my start with java for fun 
+It is my start with java for fun and the love for this language 
