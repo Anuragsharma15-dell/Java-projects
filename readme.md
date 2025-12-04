@@ -11,3 +11,22 @@ Enter first number: 10
 Enter second number: 5
 Choose operation (+, -, *, /): *
 Result: 50
+
+
+🚀 Features
+
+➕ Addition
+
+➖ Subtraction
+
+✖️ Multiplication
+
+➗ Division
+
+% Modulus 
+
+🔄 Continuous calculations
+
+📦 Clean and modular Java code
+
+💻 Works on any system with Java installed
