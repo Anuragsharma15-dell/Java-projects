@@ -1,50 +1,42 @@
-import java.util.Scanner;
 
-
-public class Test{
-    public static void main(String [] args){
-        Scanner scanner = new Scanner(System.in);
-
-   
+ class  Base  {
     
+          int weight = 10;
 
-    
-      
-      
-         String choice ;
-          System.out.println("Enter your choice(1, , 2 , 3 ,4)");
-        System.out.println();
+        int height = 6;
+       
+        double  Base(double pi ){
+          pi = 3.14;
+          return pi*pi;
 
-        System.out.println("Enter user choice");
-     String User;
-     User   = scanner.next();
-
-     System.out.println("Enter computer choice");
-     String Computer;
-     Computer = scanner.next();
-
-
-
-         
-          choice = scanner.next();
-          switch (choice) {
-            case "1":if(User.equals("Rock")&& Computer.equals("Scissor")) System.out.println("User wins ");
-                
-                break;
-                case "2":if(User.equals("Paper")&& Computer.equals("Scissor")) System.out.println("Computer wins  ");
-                    break;
-                    case"3" :if(User.equals("Scissor")&& Computer.equals("Rock")) System.out.println("Computer wins");
-                    break;
-
-                   
-            case "4":if(User.equals("Scissor")&& Computer.equals("Paper")) System.out.println("User wins  ");
-                
-                break;
-               
-          
-            default:
-                break;
-          }
+        }
         
     }
-}
+  class Child extends Base{
+   int add(int num1 , int num2 ){
+    return num1*num2;
+
+
+
+   }
+    
+  }
+  
+  
+  public class Test{
+    public static void main(String[] args){
+      Child ch = new Child();
+      System.out.println(ch.height);
+      Base b = new Base();
+      System.out.println(b.Base(12));
+      System.out.println(ch.add(10, 10));
+      System.out.println("Added");
+    }
+
+  }
+
+
+
+  
+  
+ 

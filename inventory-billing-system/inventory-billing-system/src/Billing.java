@@ -2,6 +2,9 @@ import java.time.LocalDateTime;
 import java.util.*;
 
 public class Billing {
+    public static void main(String[] args) {
+        
+    }
 
     private ArrayList<String> items = new ArrayList<>();
     private double total = 0;

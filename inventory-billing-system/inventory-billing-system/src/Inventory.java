@@ -1,6 +1,11 @@
 import java.util.*;
+import java.lang.*;
+
 
 public class Inventory {
+     public static void main(String[] args) {
+        
+     }
 
     private ArrayList<Product> products = new ArrayList<>();
 
@@ -30,11 +35,14 @@ public class Inventory {
         for (Product p : products) System.out.println(p);
     }
 
+
     public Product searchProduct(int id) {
         for (Product p : products)
             if (p.getId() == id) return p;
         return null;
     }
+
+    
 
     public ArrayList<Product> getAll() {
         return products;
